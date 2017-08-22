@@ -4,12 +4,12 @@
 Create an app that allows users to log their favorite films.
 
 A film should have the following info:
-Title
-Genre
-Year
-Synopis 
-Picture(can take an url)
-Add to favorites
+- Title
+- Genre
+- Year
+- Synopis 
+- Picture(can take an url)
+- Add to favorites
 
 You will need Full CRUD for Movies and Users (use Devise).
 You will be deploying the application to Heroku
@@ -41,3 +41,9 @@ Benchmark 3:
     - Postgres
     - Bootstrap
 - Deployed on Heroku
+
+## OMDB 
+
+API: d31f1a94 
+
+Example: http://www.omdbapi.com/?i=tt2294629&apikey=d31f1a94 
