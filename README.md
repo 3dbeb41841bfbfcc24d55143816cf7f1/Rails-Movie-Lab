@@ -23,14 +23,14 @@ Benchmark 1:
 - Push to Heroku
 
 Benchmark 2:
-- Create a User model using Devise
+<!--- - Create a User model using Devise --> 
+- Create a User Model
 - Create a Favorites model to allow Users to mark which movie's are their favorite.
 - Create a one-to-many relationship between users and favorites
 - Add a button that allows users to add a movie to his/her favorites.
 - Push to Heroku
 
 Benchmark 3:
-- Use Bootstrap to make your application responsive.
 - Push to Heroku
 
 ## Rules:
@@ -39,7 +39,6 @@ Benchmark 3:
     - Rails
     - ActiveRecord
     - Postgres
-    - Bootstrap
 - Deployed on Heroku
 
 ## OMDB 
