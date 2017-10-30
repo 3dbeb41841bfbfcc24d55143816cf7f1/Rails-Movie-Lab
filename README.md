@@ -11,7 +11,7 @@ A film should have the following info:
 - Picture(can take an url)
 - Add to favorites
 
-You will need Full CRUD for Movies and Users (use Devise).
+You will need Full CRUD for Movies and Users.
 You will be deploying the application to Heroku
 
 Benchmark 1:
