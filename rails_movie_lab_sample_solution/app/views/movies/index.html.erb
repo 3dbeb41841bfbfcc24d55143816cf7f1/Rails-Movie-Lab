@@ -1,0 +1,10 @@
+<p id="notice"><%= notice %></p>
+
+<h1>Movies</h1>
+
+<% @movies.each do |movie| %>
+    <div>
+      <span><%= movie.title %></span> |
+      <span><%= link_to 'Destroy', movie, method: :delete, data: { confirm: 'Are you sure?' } %></span>
+    </div>
+<% end %>
