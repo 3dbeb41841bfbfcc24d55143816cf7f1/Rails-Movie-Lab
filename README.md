@@ -14,6 +14,9 @@ A film should have info such as:
 An example of one way to do this can be found in the **sample solution app** in this directory. 
 
 A deployed example of the sample app can be found here: https://secret-plateau-29398.herokuapp.com/movies
+- Credentials for the sample app:
+    - **Username:** rodrigo_fritsch@hermistoncarter.name
+    - **Password:** blahblah
 
 You will need Full CRUD for Movies and Users.
 You will be deploying the application to Heroku
