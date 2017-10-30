@@ -45,15 +45,13 @@ Benchmark 2:
 - Add a button that allows users to add a movie to his/her favorites.
 - Push to Heroku
 
-Benchmark 3:
-- Push to Heroku
-
 ## Rules:
 - No scaffolding!
 - You must use all of the following
     - Rails
     - ActiveRecord
     - Postgres
+    - Devise
 - Deployed on Heroku
 
 ## OMDB 
