@@ -24,7 +24,22 @@ Benchmark 1:
 
 Benchmark 2:
 <!--- - Create a User model using Devise --> 
-- Create a User Model
+- Create a User Model (use Devise)
+    - Check out the [docs link here](https://github.com/plataformatec/devise#getting-started) for step-by-step set-up for your devise models
+    - Here is some boilerplate sign-in/sign-up/log-out links to help out.
+    ```erb
+       <!-- In application.html.erb -->
+       ...
+       <% if user_signed_in? %>
+         Logged in as <strong><%= current_user.email %></strong>.
+         <%= link_to "Logout", destroy_user_session_path, method: :delete %>
+       <% else %>
+         <%= link_to "Sign up", new_user_registration_path %> |
+         <%= link_to "Login", new_user_session_path  %>
+       <% end %>
+       ...
+    ```
+
 - Create a Favorites model to allow Users to mark which movie's are their favorite.
 - Create a one-to-many relationship between users and favorites
 - Add a button that allows users to add a movie to his/her favorites.
