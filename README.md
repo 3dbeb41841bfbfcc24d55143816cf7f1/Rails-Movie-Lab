@@ -3,7 +3,7 @@
 
 Create an app that allows users to log their favorite films.
 
-A film should have the following info:
+A film should have info such as:
 - Title
 - Genre
 - Year
@@ -11,13 +11,17 @@ A film should have the following info:
 - Picture(can take an url)
 - Add to favorites
 
+An example of one way to do this can be found in the **sample solution app** in this directory. 
+
+A deployed example of the sample app can be found here: https://secret-plateau-29398.herokuapp.com/movies
+
 You will need Full CRUD for Movies and Users.
 You will be deploying the application to Heroku
 
 Benchmark 1:
 - Generate a new Rails project.
 - Create a Github repo and push your project into a repo.
-- Generate models for Films.
+- Generate models for Movies.
 - Create views and CRUD functionality for the Movies model.
 (Stretch: Use OMDb's API to fetch movies from their database)
 - Push to Heroku
