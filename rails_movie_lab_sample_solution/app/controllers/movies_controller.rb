@@ -8,7 +8,7 @@ class MoviesController < ApplicationController
 
   def index
     @movies = current_user.movies.map do |movie|
-      url = "https://www.omdbapi.com/?i=#{movie.omdb_id}&apikey=d31f1a94"
+      url = "http://www.omdbapi.com/?i=#{movie.omdb_id}&apikey=d31f1a94"
       response = HTTParty.get(url)
       response_body = JSON.parse(response.body)
 
@@ -29,12 +29,10 @@ class MoviesController < ApplicationController
   end
 
   private
-  # Use callbacks to share common setup or constraints between actions.
   def set_movie
     @movie = Movie.find(params[:id])
   end
 
-  # Never trust parameters from the scary internet, only allow the white list through.
   def movie_params
     params.fetch(:movie, {})
   end
