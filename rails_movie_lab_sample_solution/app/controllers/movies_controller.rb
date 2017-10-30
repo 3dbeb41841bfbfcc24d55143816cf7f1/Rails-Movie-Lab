@@ -4,7 +4,6 @@ require 'pp'
 class MoviesController < ApplicationController
 
   before_action :authenticate_user!
-  before_action :set_movie, only: [:show, :edit, :update, :destroy]
 
   def index
     @movies = current_user.movies.map do |movie|
@@ -19,21 +18,9 @@ class MoviesController < ApplicationController
     end
   end
 
-  def new
-
-  end
-
   def destroy
     FavoriteMovie.find_by(user_id: current_user.id, movie_id: @movie.id).delete
     redirect_to movies_url, notice: 'Movie was successfully destroyed.'
   end
 
-  private
-  def set_movie
-    @movie = Movie.find(params[:id])
-  end
-
-  def movie_params
-    params.fetch(:movie, {})
-  end
 end
