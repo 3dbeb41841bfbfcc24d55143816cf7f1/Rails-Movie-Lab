@@ -7,7 +7,7 @@ class MoviesController < ApplicationController
 
   def index
     @movies = current_user.movies.map do |movie|
-      url = "http://www.omdbapi.com/?i=#{movie.omdb_id}&apikey=d31f1a94"
+      url = "http://www.omdbapi.com/?i=#{movie.omdb_id}&apikey=f3d1e28d"
       response = HTTParty.get(url)
       response_body = JSON.parse(response.body)
 
