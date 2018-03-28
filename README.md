@@ -63,6 +63,6 @@ Benchmark 2:
 
 ## OMDB 
 
-API: d31f1a94 
+API: f3d1e28d
 
-Example: http://www.omdbapi.com/?i=tt2294629&apikey=d31f1a94 
+Example: http://www.omdbapi.com/?i=tt2294629&apikey=f3d1e28d
