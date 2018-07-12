@@ -29,7 +29,7 @@ Benchmark 1:
 (Stretch: Use OMDb's API to fetch movies from their database)
 - Push to Heroku
 
-Benchmark 2:
+Benchmark 2 (Stretch goal for weekend):
 <!--- - Create a User model using Devise --> 
 - Create a User Model (use Devise)
     - Check out the [docs link here](https://github.com/plataformatec/devise#getting-started) for step-by-step set-up for your devise models
